@@ -1,0 +1,266 @@
+/* Dojo styles */
+.dijitSplitterV { width: 20px; }
+
+.icon_content {
+  background: url('../images/icons/page/page.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_unmanaged {
+  background: url('../images/icons/unmanaged.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_php {
+  background: url('../images/icons/page/page_white_php.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_media {
+  background: url('../images/icons/media/photos.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_stylesheet {
+  background: url('../images/icons/page/style.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_template {
+  background: url('../images/icons/page/page_white_code.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_group {
+  background: url('../images/icons/folder/folder.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_parent_group {
+  background: url('../images/icons/folder/folder_explore.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_edit {
+  background: url('../images/icons/page/page_edit.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_edit_details {
+  background: url('../images/icons/information.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_preview {
+  background: url('../images/icons/page/page_gear.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.icon_delete {
+  background: url('../images/icons/page/page_delete.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding-right: 4px;
+}
+
+
+.contentList {
+  -moz-border-radius : 5px;
+  padding: 0.3em;
+  height: 90%;  
+  width: 99%;
+}
+
+.dbtable {
+  top: 1em;
+}
+
+.dojoDialog {
+  background : #ddd;
+  border : 1px solid #999;
+  -moz-border-radius : 5px;
+  padding : 4px;
+  width: 500px;
+}
+
+.formQuestion {
+  -moz-border-radius : 10px;
+  background-color: #d0e3f5;
+  border: 1px solid #000;
+  padding: 0.3em;
+  font-weight: 900;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #5a5a5a;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formAnswer {
+  -moz-border-radius : 5px;
+  /* #f5eede */
+  background-color: #f5eede;
+  /* border: 1px solid #000; */
+  padding: 0.3em;
+  margin-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
+
+.formAnswer table {
+}
+
+.pageSubContentTitle {
+		color:#8e8e8e;
+		font-size:1em;
+		font-family:Verdana, Arial, sans-serif;
+		margin-bottom:0.75em;
+}
+.small {
+	width: 2.5em;
+}
+.medium {
+	width: 10em;
+}
+.long {
+	width: 20em;
+}
+
+span.invalid, span.missing {
+	display: inline;
+	margin-left: 1em;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial, Verdana, sans-serif;
+	color: #f66;
+	font-size: 0.9em;
+}
+
+.noticeMessage {
+	display: block;
+	float: right;
+	font-weight: normal;
+	font-family:Arial, Verdana, sans-serif;
+	color:#663;
+	font-size:0.9em;
+}
+/* group multiple buttons in a row */
+div .dojoButton {
+	float: left;
+	margin-left: 10px;
+}
+
+.containerX {
+  -moz-border-radius: 5px;
+  width:          100%;
+  height:         100%;
+  overflow-y:     auto;
+  overflow-x:     auto;
+  border:         1px solid black;
+}
+
+.dbtable table {
+  font-family:      Verdana, Arial, sans-serif;
+  font-size:        1em;
+  color:            #000;
+  width:            100%;
+  border:           1px solid #000;
+  border-collapse:  collapse;
+  cursor:           default;
+  -moz-border-radius: 5px;
+}
+
+.dbtable table td,
+.dbtable table th {
+  padding:                  2px;
+  font-weight:              normal;
+  border-left:              1px solid #000;
+  border-bottom:            1px solid #ddd;
+  text-align:               left;
+}
+.dbtable table tr {
+  border-bottom: 1px solid #ddd;
+}
+.dbtable table tbody tr {
+  color: #33f;
+}
+.dbtable table tbody tr.alt td {
+  background: #e3edfa;
+}
+.dbtable table tbody tr.selected td {
+  background: blue;
+}
+.dbtable table tbody tr:hover td {
+  background: #a6c2e7;
+}
+.dbtable table tbody tr.selected:hover td {
+  background: #ff9;
+}
+
+#inputArea {
+	margin:1em 0;
+	padding:1em;
+	background-color:#eef;
+}
+
+#updateTestInput {
+	border:1px solid #ccc;
+	width:100%;
+	height:80px;
+	font-family:serif;
+	font-size:0.9em;
+	overflow:auto;
+}
+
+#userlistCommands {
+  position: relative;
+  margin-top: 3em;
+}

@@ -1,0 +1,130 @@
+body {
+  position: absolute;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family:		        "Verdana", "Arial", "Helvetica";
+}
+
+.help {
+  color:                        #f00;
+  font-family:		        "Verdana", "Arial", "Helvetica";  
+}
+
+#expander { float: left; width: 1px; height: 100%; }
+
+#footer { 
+  position: relative;
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #00039B; 
+  border : 1px solid #999;
+  -moz-border-radius : 5px;
+  padding : 0px;
+}
+#footer p {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+
+#left-nav { 
+  float: left; 
+  width: 9%; 
+  background: #00039B; 
+  border: 1px solid #000;
+  
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+}
+
+#left-nav ul,li,a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#left-nav ul {
+  /* width: 150px; */
+  /* border: 1px solid #000; */
+  background: white;
+  list-style: none;
+}
+
+#left-nav li {
+	position:relative;
+	padding:1px;
+	padding-left: 0px;
+	background:  url("./images/item_moz.gif") no-repeat;
+	z-index:9;
+}
+
+#left-nav li.folder	{ background:url("./images/item_folder.gif") no-repeat; }		
+#left-nav li.folder ul {
+	position:absolute;
+	left:120px; /* IE */
+	top:5px;
+}		
+#left-nav li.folder>ul { left:140px; } 
+
+/* others */
+#left-nav a {
+	padding:2px;
+	border:1px solid white;
+	text-decoration:none;
+	color:gray;
+	font-weight:bold;
+	width:100%; /* IE */
+}
+
+#left-nav li>a { width:auto; } 
+/* others */
+
+#left-nav li a.submenu {
+	background:url("./images/sub.gif") right no-repeat;
+}
+
+#left-nav	a:hover {
+		border-color:gray;
+		background-color:#bbb7c7;
+		color:black;
+}
+
+#left-nav li.folder a:hover {
+	background-color:#bbb7c7;
+}
+
+#left-nav	li.folder:hover { z-index:10; }		
+		
+#left-nav ul ul, li:hover ul ul {
+	display:none;
+}
+
+#left-nav li:hover ul, li:hover li:hover ul {
+	display:block;
+}		
+
+#main-content {
+  position:     relative;
+  margin:       0em auto 2em auto;
+  width:        100%
+}
+
+a.delete:hover {
+  background: #c00;
+  color: #fff;
+}

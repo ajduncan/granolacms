@@ -1,0 +1,58 @@
+.header-top {
+  background-image:       url('../images/header-bg.png');
+  background-repeat:      repeat-x;
+  width:                  100%;
+  height:                 auto;
+  position:               relative;
+  margin:             	  0 auto 0 auto;
+  border-top:             1px solid #000;
+  border-left:            1px solid #000;
+  border-bottom:          1px solid #000;
+}
+
+.header-top a:link, .header-top a:visited {
+  margin:		  2px 20px 0 auto;
+  font-size:		  16px;
+  font-family:		  "Verdana", "Arial", "Helvetica";  
+  color:		  #000;
+}
+
+.header-top a:hover {
+  color:		  #33169b;
+}
+
+.header-top ul {
+  list-style-type:	  none;
+}
+
+.header-top ul li {
+  display:		  block;
+  float:		  left;
+  margin:		  2px 20px 0 auto;
+  font-size:		  14px;
+  font-family:		  "Verdana", "Arial", "Helvetica";
+}
+
+.header-top ul li.active {
+  background:		  url("../images/menuactive.png") no-repeat top right;
+  margin-right:	          5px;
+  padding-right:          10px;
+}
+
+.logo {
+  margin:                 0 0 0 0;
+  -moz-border-radius:     5px;
+  border:                 1px solid #000;
+  background:             #fff;
+}
+
+.topmenu { 
+  position: relative;
+  /* clear: both; */
+  /* border-bottom: 1px solid #000; */
+  width: 100%;
+  background: #00039B; 
+  border : 1px solid #999;
+  -moz-border-radius : 5px;
+  padding : 0px;
+} /* header */
